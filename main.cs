@@ -13,8 +13,8 @@ class Program
         const int NUMERATOR = 4;
         int userInput;
         int counter = 0;
-        float answer = 0;
-        float denominator = 1;
+        double answer = 0;
+        double denominator = 1;
 
         // input
         Console.WriteLine("This program calculates the value of π");
@@ -26,7 +26,8 @@ class Program
         // process
         if (userInput < 0)
         {
-            Console.WriteLine("Please input a positive whole number!");
+            Console.Clear();
+            Console.WriteLine("Input a positive whole number.");
         }
         else
         {
@@ -42,12 +43,12 @@ class Program
                     denominator = counter * 2 + 1;
                     answer += -(NUMERATOR / denominator);
                 }
+                
                 counter++;
             }
-
-            // output
+             // output
             Console.WriteLine("");
-            Console.WriteLine("The value of π is " + answer.ToString("0.000000"));
+            Console.WriteLine("The value of π is " + answer);
         }
 
         Console.WriteLine("\nDone.");
