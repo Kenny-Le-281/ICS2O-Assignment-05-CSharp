@@ -18,10 +18,9 @@ class Program
 
         // input
         Console.WriteLine("This program calculates the value of π");
-        Console.WriteLine("Please input a positive whole number");
 
         Console.WriteLine("");
-        Console.Write("Input the whole positive number: ");
+        Console.Write("Please input a positive whole number: ");
         userInput = Convert.ToInt32(Console.ReadLine());
 
         // process
@@ -47,6 +46,7 @@ class Program
             }
 
             // output
+            Console.WriteLine("");
             Console.WriteLine("The value of π is " + answer.ToString("0.000000"));
         }
 
