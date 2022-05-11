@@ -41,15 +41,15 @@ class Program
                 else
                 {
                     denominator = counter * 2 + 1;
-                    answer += - (NUMERATOR / denominator);
+                    answer += -(NUMERATOR / denominator);
                 }
                 counter++;
             }
 
             // output
-            Console.WriteLine("The value of π is " + answer.ToString("0.0000000000000"));
+            Console.WriteLine("The value of π is " + answer.ToString("0.000000"));
         }
-        
+
         Console.WriteLine("\nDone.");
     }
 }
