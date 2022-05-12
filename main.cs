@@ -27,7 +27,7 @@ class Program
         if (userInput < 0)
         {
             Console.Clear();
-            Console.WriteLine("Input a positive whole number.");
+            Console.WriteLine("Input a positive integer.");
         }
         else
         {
@@ -50,7 +50,7 @@ class Program
             Console.WriteLine("");
             Console.WriteLine("The value of π is " + answer);
         }
-
+        
         Console.WriteLine("\nDone.");
     }
 }
