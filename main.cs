@@ -43,10 +43,10 @@ class Program
                     denominator = counter * 2 + 1;
                     answer += -(NUMERATOR / denominator);
                 }
-                
+
                 counter++;
             }
-             // output
+            // output
             Console.WriteLine("");
             Console.WriteLine("The value of π is " + answer);
         }
