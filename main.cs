@@ -41,7 +41,7 @@ class Program
                 else
                 {
                     denominator = counter * 2 + 1;
-                    answer += - (NUMERATOR / denominator);
+                    answer += -(NUMERATOR / denominator);
                 }
 
                 counter++;
